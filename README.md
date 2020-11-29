@@ -7,3 +7,9 @@ It helps gather timing data needed to troubleshoot latency problems in service a
 
 
 In this example you will find a setup of 2 microservices (`zipkin-service-1` and `zipkin-service-2`) and a zipkin server which holds and vizualize all logs for both microservices.
+
+
+Note!
+
+The *.bat files are helper files for creating new muliple instances of `zipkin-service-1` and `zipkin-service-2`.
+Prerequisite: executables of moth microservices are necessary.
