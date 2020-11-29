@@ -1,8 +1,9 @@
 # zipkin
 
-@link https://zipkin.io
+What is zipkin?
 
-We will use zipkin as a distributed tracing system.
-We have a setup of 2 microservices (zipkin-service-1 + zipkin-service-2) 
+[Zipkin](https://zipkin.io) is a distributed tracing system. 
+It helps gather timing data needed to troubleshoot latency problems in service architectures. Features include both the collection and lookup of this data.
 
-In order to vizualize the logs your need to install zipkin server on your local pc.
+
+In this example you will find a setup of 2 microservices (`zipkin-service-1` and `zipkin-service-2`) and a zipkin server which holds and vizualize all logs for both microservices.
